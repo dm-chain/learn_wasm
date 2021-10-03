@@ -1,0 +1,13 @@
+{
+    "name": "learn_wasm",
+    "version": "1.0.0",
+    "type": "module",
+    "devDependencies": {
+        "wat2wasm": "^3.0.0",
+        "webassembly": "^0.11.0"
+    },
+    "scripts": {
+        "build": "wat2wasm math.wat -o math.wasm",
+        "start": "node index.js"
+    }
+}
